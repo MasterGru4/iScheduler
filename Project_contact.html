@@ -1,0 +1,78 @@
+<!--
+
+File:   Project_contact.php
+Author: Blake Bowdoin, Daniel Gruza
+Class:  Summer 1, 2017 C490
+Description:
+This is the contact page file. This page displays pictures of the developers and their email contact
+information.
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>iScheduler Contact</title>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="JavaScript, Web Programming, HTML, CSS, Class, Schedule, Intelligent">
+
+
+
+        <style type="text/css">
+
+            body
+            {
+                font-family:"Arial";
+                color: Black;
+                background-color:#EEEDEB;
+            }
+
+            #body_stuff
+            {
+                text-align: center;
+            }
+
+
+
+            .button	
+            {
+                border-radius: 25px;
+                color: white;
+                background-color: #990000;
+                padding: 20px;
+
+            }
+
+        </style>
+
+
+
+        <script type="text/javascript">
+
+
+            function new_page2 () {
+                window.location.assign("http://cs.iusb.edu/~hhakimza/")
+            }
+
+        </script>
+    </head>
+    <body>
+
+        <div id="header" style='height:50px;width:1300px;background-color:#990000;color:#EDEBEB'>
+            <img style='float:left;height:100px;width:75px;margin-left:100px;' src='https://brand.iu.edu/images/trident-tab.jpg' name='iuTrident' alt='IU'>
+            <h1 style='position:relative;left:400px;'>Contact page</h1>
+        </div>
+
+        <h2 style='margin-left:575px'>Website's creators</h2>
+
+        <div id="body_stuff">
+
+            <input type="button" class="button" value="IU South Bend" onclick="new_page2()"><br><br>
+            <img src="./images/IMG_2245.jpg" height="300px" width="350px" align="center"/>
+            <img src="./images/portrait.JPG" height="300px" width="350px" align="center"/>
+            <h2 style='margin-left200px'>Blake Bowdoin (bowdoinb@iusb.edu), Daniel Gruza (dgruza@iusb.edu)</h2>
+        </div>
+        <div id='copyright' style='height:50px;width:1300px;background-color:#990000'>
+            <h2 style='color:white;text-align:center'>&#169 Copyright 2017 by C490 Client Server Web Programming</h2>
+        </div>
+    </body>
+</html>
